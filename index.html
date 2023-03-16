@@ -1,8 +1,8 @@
-<form method="post">
+<form method="post" action="submit-form">
 <fieldset>
 <label for="name">Enter Your Name: <input id="name" type="text" required /></label>
 <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
-<label for="password">Create a Password: <input id="password" type="password" pattern="[a-z0-9]{8,}" required /></label>
+<label for="password">Create a Password: <input id="password" type="password" minlength="8" required /></label>
 </fieldset>
 <fieldset>
 <label>Referrer
